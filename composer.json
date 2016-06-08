@@ -1,0 +1,24 @@
+{
+    "name": "vadim/console-vadim",
+    "description": "Vadim Denis console manager",
+    "type": "console",
+    "require": {
+        "symfony/console": "^3.2@dev"
+    },
+    "require-dev": {
+        "symfony/console": "^3.2@dev"
+    },
+    "authors": [
+        {
+            "name": "Vadim Denis",
+            "email": "vadim.d.makarenko@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload":{
+        "psr-4":{
+            "": "src/"
+        }
+    }
+
+}
