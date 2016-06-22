@@ -1,4 +1,4 @@
-<?php
+<?php namespace Acme;
 
 /**
  * Created by PhpStorm.

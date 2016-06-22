@@ -3,11 +3,9 @@
     "description": "Vadim Denis console manager",
     "type": "console",
     "require": {
-        "symfony/console": "^3.2@dev"
-    },
-    "require-dev": {
-        "symfony/console": "^3.2@dev"
-    },
+        "symfony/console": "^3.2",
+        "guzzlehttp/guzzle": "^6.2@dev"
+    }, 
     "authors": [
         {
             "name": "Vadim Denis",
@@ -17,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload":{
         "psr-4":{
-            "": "src/"
+            "Acme\\": "src"
         }
     }
 
